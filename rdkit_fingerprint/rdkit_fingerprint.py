@@ -138,3 +138,4 @@ np_fp = pd.read_csv("C:\\Users\\proon\\OneDrive\\เดสก์ท็อป\\HD
 np_fp["np_inchi_key"] = np_fp.apply(fix_np_inchikey, axis=1)
 
 np_fp.to_csv("C:\\Users\\proon\\OneDrive\\เดสก์ท็อป\\HDi project 222\\data for fp\\compound_fingerprints_np_fixed.csv", index=False)
+# %%
